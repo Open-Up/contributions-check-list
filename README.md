@@ -1,8 +1,6 @@
 # Ideas of contributions
 
-## Code contributions
-
-### Apache James
+## Apache James
 
 ![James logo](http://james.apache.org/images/logos/james-logo.png)
 
