@@ -33,5 +33,18 @@ Here is a selection of some [easy contributions](https://issues.apache.org/jira/
  - Annotation processing and maven plugins https://issues.apache.org/jira/browse/JAMES-2325
  - Performance tuning and measurement https://issues.apache.org/jira/browse/JAMES-2210
  - Expose more configuration options for ActiveMQ https://issues.apache.org/jira/browse/JAMES-2168
+ - JPA should fail gracefully when too long mailbox name https://issues.apache.org/jira/browse/MAILBOX-300
+ 
+ **MIME**
+ 
+  - NPE in MimeBoundaryInputStream.java:67 https://issues.apache.org/jira/browse/MIME4J-266
+  - SingleBody should expose a getSize method. https://issues.apache.org/jira/browse/MIME4J-264
+ 
+ **SIEVE**
+ 
+  - Vacation and Reject might actually infinitly loop https://issues.apache.org/jira/browse/JSIEVE-104
+  - REJECT notification might not be sent to mailing lists https://issues.apache.org/jira/browse/JSIEVE-105
+  
+  
  
  James team will offer guidance for these different tasks. Just open pull requests on https://github.com/apache/james-project .
