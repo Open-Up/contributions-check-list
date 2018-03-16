@@ -4,6 +4,8 @@
 
 ### Apache James
 
+![James logo](http://james.apache.org/images/logos/james-logo.png)
+
 [Apache James server](http://james.apache.org/#third) is a modern email server under heavy development. Learn about emails, backend, Java, etc...
 
 Here is a selection of some [easy contributions](https://issues.apache.org/jira/issues/?jql=project%20%3D%20JAMES%20AND%20resolution%20%3D%20Unresolved%20AND%20labels%20%3D%20newbie%20ORDER%20BY%20priority%20DESC%2C%20updated%20DESC).
