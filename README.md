@@ -10,6 +10,8 @@ Here is a selection of some [easy contributions](https://issues.apache.org/jira/
 
 **REST API for administration**
 
+James exposes the **web-admin** REST API for administation. We intend to improve it, and add features.
+
  - Error handling in a REST API https://issues.apache.org/jira/browse/JAMES-2314
  - Add a web API for document re-indexing https://issues.apache.org/jira/browse/JAMES-2152
  - Better display emails in WebAdmin https://issues.apache.org/jira/browse/JAMES-2321
@@ -22,6 +24,8 @@ Here is a selection of some [easy contributions](https://issues.apache.org/jira/
  - Document docker network usage instead of docker links https://issues.apache.org/jira/browse/JAMES-2333
 
 **Mail processing**
+
+James allow customizing the mail processing. These tasks allow to quickly get on board and discover these components.
 
 - A little configuration fix https://issues.apache.org/jira/browse/JAMES-2211
  - Handles priority in mail processing https://issues.apache.org/jira/browse/JAMES-2279
@@ -37,14 +41,17 @@ Here is a selection of some [easy contributions](https://issues.apache.org/jira/
  
  **MIME**
  
+ Mime is the format of email. We have a library for parsing it.
+ 
   - NPE in MimeBoundaryInputStream.java:67 https://issues.apache.org/jira/browse/MIME4J-266
   - SingleBody should expose a getSize method. https://issues.apache.org/jira/browse/MIME4J-264
+  - Bonus: add documentation about mime4j-dom parsing and message generation.
  
  **SIEVE**
  
+ Sieve scripts allow one to write the behaviour the mail server should have upon mail reception.
+ 
   - Vacation and Reject might actually infinitly loop https://issues.apache.org/jira/browse/JSIEVE-104
   - REJECT notification might not be sent to mailing lists https://issues.apache.org/jira/browse/JSIEVE-105
-  
-  
  
- James team will offer guidance for these different tasks. Just open pull requests on https://github.com/apache/james-project .
+ [James team](https://gitter.im/apache/james-project) will offer guidance for these different tasks. Just open pull requests on https://github.com/apache/james-project .
